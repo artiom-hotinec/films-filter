@@ -1,1 +1,1 @@
-# films-filter
+#The live site of this project is hosted on https://artiom-hotinec.github.io/films-filter
