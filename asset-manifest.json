@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/films-filter/static/css/main.fd2e9dc0.css",
+    "main.js": "/films-filter/static/js/main.bb19582f.js",
+    "index.html": "/films-filter/index.html",
+    "main.fd2e9dc0.css.map": "/films-filter/static/css/main.fd2e9dc0.css.map",
+    "main.bb19582f.js.map": "/films-filter/static/js/main.bb19582f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd2e9dc0.css",
+    "static/js/main.bb19582f.js"
+  ]
+}
