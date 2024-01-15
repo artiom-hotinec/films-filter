@@ -24,6 +24,7 @@ export type Film = {
   rating: number;
   genre: string;
   imgUrl: string;
+  embeddedId: string;
 }
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -247,12 +248,10 @@ export default function HomePage () {
       open={modal}
       onClick={onBackdropClick}
     >
-      <Box>
-        <Modal open={modal}
-          film={film as Film}
-          handleCloseModal={handleCloseModal}
-        />
-      </Box>
+      <Modal open={modal}
+        film={film as Film}
+        handleCloseModal={handleCloseModal}
+      />
     </Backdrop>
   </>
 }
